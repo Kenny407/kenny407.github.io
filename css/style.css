@@ -83,3 +83,5 @@ a {color: white;}
 a:visited {color: white;}
 a:hover {color: #00DAFF;}  
 a:active {color: white;}
+
+.location {font-size: 1rem;}
