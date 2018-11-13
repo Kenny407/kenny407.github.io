@@ -1,5 +1,5 @@
-require('../css/style.css');
-require('../css/font.css');
+require('../css/style.scss');
+require('../css/font.scss');
 
 particlesJS("particles-js", {
   particles: {
