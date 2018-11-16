@@ -1,6 +1,9 @@
+require('../css/style.scss');
+require('../css/font.scss');
+
 particlesJS("particles-js", {
   particles: {
-    number: { value: 80, density: { enable: true, value_area: 800 } },
+    number: { value: 120, density: { enable: true, value_area: 700 } },
     color: { value: "#ffffff" },
     shape: {
       type: "circle",
