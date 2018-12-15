@@ -7,10 +7,12 @@ module.exports = {
   entry: {
     main: './src/js/index.js',
     particles: './src/js/particles.min.js',
-  }
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: '[name].[hash:8].js',
+    sourceMapFilename: '[name].[hash:8].map',
+    chunkFilename: '[id].[hash:8].js'
   },
   plugins: [
     new HtmlWebpackPlugin({
